@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Week4Day1_GithubProject</string>
     <string name="see_repos">See Repositories</string>
+    <string name="user_name">Name: </string>
+    <string name="user_bio">Bio: </string>
+    <string name="user_company">Company: </string>
+    <string name="user_location">Location: </string>
 </resources>

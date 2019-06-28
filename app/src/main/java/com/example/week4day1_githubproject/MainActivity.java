@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void userResponseEvent(GithubResponse githubResponse) {
         Log.d("TAG_EVENT_RECEIVED", githubResponse.getName());
+
         tvDisplayUser.setText("Name: " + githubResponse.getName());
         tvDisplayBio.setText("Bio: " + githubResponse.getBio());
         tvDisplayCompany.setText("Company: " + githubResponse.getCompany());
